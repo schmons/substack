@@ -41,7 +41,21 @@ A widely shared 1986 paper (cited by Jason Hickel) claims socialist countries ha
    - Earlier warning sign: Burkett (1985) showed the result is fragile to the choice of controls.
    - **Figure 3:** the Soviet-bloc "advantage" was +3.5 years in the 1950s and shrank to below zero by the 1980s. Whatever was going on, it wasn't a stable feature of the system.
 
-5. **Asking the right question: what happened to similar countries?**
+5. **The best test we have: East vs West Germany.**
+   - Same people, same language, same history until 1945, split by the system. This is the comparison the paper's method *rules out*.
+     - West Germany is in the high-income band. East Germany, on an overstated GNP, lands in upper-middle income.
+     - Its "peers" become oil states and Latin American economies (Iraq in the World Bank's grouping; Libya, Oman, Gabon, Mexico in modern data). *(verify Iraq in Table 1)*
+   - **Figure 6:** against those peers, East Germany looks 4.6 years *better*. Against West Germany it is 1.5 years *worse* (1983), and 2.5 years worse by 1989.
+   - **Figure 5:**
+     - Life expectancy was identical until the mid-1970s, then East Germany stalled.
+     - After reunification the gap almost closed (0.6 years by 2017). The gap opens and closes with the system.
+   - **The data were rosier than reality:**
+     - GDR GDP was revised down sharply after 1990, from roughly half of West Germany's to about a third.
+     - The GDR's two-signs-of-life rule for live births flattered infant mortality.
+     - The CIA once rated East Germany richer per head than West Germany.
+   - **Caveat:** not a perfect experiment. Some differences pre-date 1945, and many people emigrated before 1961 (Becker, Mergele & Woessmann).
+
+6. **Asking the right question elsewhere: what happened to similar countries?**
    - **Figure 4:** neighbours with similar starting points (Finland/Estonia, Austria/Czechia & Hungary, Southern vs Eastern Europe).
      - Life expectancy tracked closely until about 1965, then stalled in the East for 25 years while the West kept rising.
      - Income diverged from the start. That lost income is exactly what the "same GDP" comparison hides.
@@ -50,20 +64,20 @@ A widely shared 1986 paper (cited by Jason Hickel) claims socialist countries ha
      - What these cases share is primary care, schooling (especially for girls) and public health. Not ownership of the means of production.
    - Cuba led Latin America in health *before* 1959. After 1960 it was only 5th of 20 on infant-mortality reduction (McGuire & Frankel). Costa Rica overtook it.
 
-6. **And the data themselves.**
+7. **And the data themselves.**
    - Soviet infant-mortality definitions, underreporting, and publication stopped in the 1970s.
    - Cuba's infant-mortality figures.
    - Soviet live-birth definition: reported infant mortality ~22–25% too low (Anderson & Silver). Publication banned 1974–86, so the 1981 numbers were estimates.
    - Cuba: adjusted infant mortality ~2× reported (Gonzalez & Gilleskie), though still a bit better than peers.
    - GNP for planned economies: guesswork (USSR $2,700–5,700; none for Cuba or Bulgaria). Concede that overstated GNP actually works *against* the socialist group.
 
-7. **What good evidence would look like.**
+8. **What good evidence would look like.**
    - Compare on *pre-treatment* characteristics, not post-treatment ones.
    - Natural experiments (Germany, Korea).
    - Trajectories rather than a single snapshot.
    - Honest uncertainty about the data.
 
-8. **Conclusion.**
+9. **Conclusion.**
    - The claim isn't crazy: some socialist countries did well on basic health at low incomes.
    - But the 1986 paper can't show that socialism *caused* better health, because its design cannot answer that question.
    - Bigger lesson: "controlling for" a variable is not a neutral act. Ask whether the thing you control for is caused by the thing you're studying.

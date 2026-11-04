@@ -224,6 +224,78 @@ We used Gapminder data (`scripts/03_reanalysis.py`, `04_robustness.py`) with our
 | Ross (2006) | How missing autocracies are handled changes regime–health results | |
 | Navarro (1992, 1993) | Defends C&W, continent by continent | |
 
+## Argument 4: East vs West Germany, the closest natural experiment
+
+**Data:**
+- **Life expectancy:** Human Mortality Database, East Germany (DEUTE) and West Germany (DEUTW), 1956–2017, December 2018 release. mortality.org was blocked, so the files come from a public GitHub mirror.
+- **GDP:** Conference Board Total Economy Database (2015), 1950–89, read back from Our World in Data's "two Germanies" chart.
+- Script: `scripts/05_germany.py`. Figures: `figures/05_germany.png` and `06_germany_peers.png`.
+
+### Life expectancy: level until the mid-1970s, then a fall-behind, then catch-up after reunification
+
+| Year | East | West | West − East |
+|---|---|---|---|
+| 1956 | 68.8 | 68.5 | −0.3 |
+| 1965 | 70.7 | 70.6 | 0.0 |
+| 1975 | 71.6 | 71.5 | 0.0 |
+| 1980 | 71.9 | 73.4 | 1.5 |
+| 1985 | 72.8 | 75.0 | 2.3 |
+| 1989 | 73.5 | 76.0 | 2.5 |
+| 1990 | 72.9 | 76.0 | 3.1 |
+| 2000 | 77.3 | 78.2 | 0.9 |
+| 2017 | 80.5 | 81.1 | 0.6 |
+
+**Men:** the 1990 gap was 3.4 years (HMD).
+
+**Reading:**
+- The two Germanies were level for 20 years. East Germany then stalled from about 1975, while West Germany kept improving (the cardiovascular revolution).
+- After 1990 the East gained about 6–7 years and nearly closed the gap.
+- Same people, same history before 1945, same post-1990 institutions. The gap opens and closes with the system.
+- Literature agrees: Nolte, Shkolnikov & McKee; Vogt & Kluge (2015); INED (2017).
+- A 2017 European Journal of Population study finds convergence began slightly before 1990 and was speeded up by reunification, crediting access to West German health care and drugs.
+
+**Caveats:**
+- **The East's figures are flattered.** The GDR counted a live birth only with *two* signs of life, a heartbeat *and* breathing. A baby with a heartbeat who never breathed was counted as a stillbirth (HMD DEUTE documentation; Lišková et al. 2024). So GDR infant mortality and life expectancy are slightly flattered, and the true pre-1990 gap is, if anything, bigger.
+- **Population counts differed.** The GDR counted only people resident at least 6 months.
+- **Not a clean experiment.** Becker, Mergele & Woessmann (2020): differences pre-dated the division, and selective emigration (about a fifth of the population before 1961) changed the East's makeup.
+
+### GDP: East German figures were revised down sharply after 1990
+
+**How far behind was East Germany in 1989?**
+
+| Series | East as % of West, 1989 |
+|---|---|
+| Total Economy Database (in our chart) | about 47% (it stays at 44–49% throughout 1950–89) |
+| Post-1990 reconstructions (Heske; Ritschl & Spoerer), via Post-Communist Economies (2013) | **about 33%** (€8,322 vs €25,160, 1995 prices) |
+
+- The reconstructed 1989 values are about **€4,000 per head below the official GDR series**.
+- Other estimates: GDR productivity about one-third of the West (FES); official 1989 GDP of 353bn marks vs West German estimates of 230–300bn (Bofinger 1990).
+- The *CIA World Factbook 1987* had East Germany *richer* per head than West Germany.
+
+**Implications:**
+- The figures available in the 1980s, which is what the paper used, made East Germany look much richer than it was.
+- Here that bias cuts *against* the paper: if the GDR was really poorer, its health per dollar looks even better under the paper's method.
+- That is the problem with the method, not a defence of it. The comparison you get depends entirely on which guess about GDP you plug in.
+- ⚠️ We don't have the full annual reconstructed series. Only the 1989 endpoint is on the chart.
+
+### The income-band problem in one picture
+
+**The paper's banding:**
+- West Germany sits in the high-income band. East Germany, with an (overstated) 1981 GNP, sits in **upper-middle income**.
+- So the paper compares East Germany not with West Germany, its obvious counterfactual, but with whichever capitalist countries had a similar GNP.
+- In the World Bank's 1983 grouping, the middle-income economies included oil exporters such as **Iraq**, Iran, Venezuela, Algeria and Mexico. ⚠️ Check Table 1 of the paper for the exact upper-middle list.
+
+**Our version with modern data** (Gapminder, using the Total Economy Database East/West ratio to place East Germany):
+- In 1983, the capitalist countries within 15% of East Germany's GDP per head were Gabon, Oman, Libya, Trinidad & Tobago, Mexico, Suriname, Argentina, Cyprus and Portugal.
+- Their average life expectancy was 68.1 years.
+
+| Comparison | East Germany's life-expectancy gap |
+|---|---|
+| vs these "GDP peers" | **+4.6 years** (looks like a socialist success) |
+| vs West Germany | **−1.5 years** (and −2.5 by 1989) |
+
+**The punchline:** holding GDP fixed swaps East Germany's natural comparison, its other half, for oil states and Latin American economies. The system *caused* the income gap that pushed East Germany into that company.
+
 ## Arguments against us / open questions
 
 - **The authors would say** they're estimating "efficiency": health per dollar. That is a legitimate descriptive question. But it isn't what Hickel claims ("socialism delivers better outcomes"), and the collider problem means even the "per dollar" number is biased.
@@ -258,7 +330,10 @@ We used Gapminder data (`scripts/03_reanalysis.py`, `04_robustness.py`) with our
 2. **Read the Kwon and Zilberg letters and the reply** (PMC1646820, PMC1646830, PMC1646824).
 3. **Hickel's threads verbatim:** x.com/i/status/1528326657500758016 and x.com/i/status/1446769071991705605.
 4. **Sen (1981):** what "correct for GDP" meant there.
-5. **Optional robustness:** redo Figure 2 with the paper's own 1981 GNP figures (from Table 1) and Maddison GDP. Use Human Mortality Database data for East vs West Germany.
+5. **Optional robustness:** redo Figure 2 with the paper's own 1981 GNP figures (from Table 1) and Maddison GDP.
+6. **Germany:**
+   - Confirm East Germany's band and GNP figure in Table 1, and whether Iraq is in the same band.
+   - Get the full annual Heske / Ritschl–Spoerer series (the Post-Communist Economies 2013 article, doi 10.1080/14631377.2013.756672) to plot official vs reconstructed GDP.
 
 ## Dead ends
 
