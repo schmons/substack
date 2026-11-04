@@ -1,0 +1,43 @@
+country,name,group,start,end,note
+rus,Russia,soviet_bloc,1917,1991,USSR core
+ukr,Ukraine,soviet_bloc,1920,1991,USSR
+blr,Belarus,soviet_bloc,1920,1991,USSR
+arm,Armenia,soviet_bloc,1920,1991,USSR
+aze,Azerbaijan,soviet_bloc,1920,1991,USSR
+geo,Georgia,soviet_bloc,1921,1991,USSR
+kaz,Kazakhstan,soviet_bloc,1920,1991,USSR
+uzb,Uzbekistan,soviet_bloc,1924,1991,USSR
+tkm,Turkmenistan,soviet_bloc,1924,1991,USSR
+kgz,Kyrgyz Republic,soviet_bloc,1924,1991,USSR
+tjk,Tajikistan,soviet_bloc,1924,1991,USSR
+est,Estonia,soviet_bloc,1940,1991,USSR (annexed 1940)
+lva,Latvia,soviet_bloc,1940,1991,USSR (annexed 1940)
+ltu,Lithuania,soviet_bloc,1940,1991,USSR (annexed 1940)
+mda,Moldova,soviet_bloc,1940,1991,USSR (annexed 1940)
+mng,Mongolia,soviet_bloc,1924,1990,Mongolian People's Republic
+alb,Albania,soviet_bloc,1944,1991,
+bgr,Bulgaria,soviet_bloc,1946,1990,
+pol,Poland,soviet_bloc,1947,1989,
+rou,Romania,soviet_bloc,1947,1989,
+hun,Hungary,soviet_bloc,1949,1989,
+cze,Czech Republic,soviet_bloc,1948,1989,part of Czechoslovakia
+svk,Slovak Republic,soviet_bloc,1948,1989,part of Czechoslovakia
+chn,China,asia_cuba,1949,,market reforms from 1978
+prk,North Korea,asia_cuba,1948,,
+vnm,Vietnam,asia_cuba,1954,,North from 1954; whole country from 1975; reforms from 1986
+lao,Lao,asia_cuba,1975,,
+khm,Cambodia,asia_cuba,1975,1991,Khmer Rouge 1975-79 then PRK
+cub,Cuba,asia_cuba,1959,,
+svn,Slovenia,yugoslavia,1945,1990,Yugoslav market socialism (sensitivity only)
+hrv,Croatia,yugoslavia,1945,1990,Yugoslav market socialism (sensitivity only)
+srb,Serbia,yugoslavia,1945,1990,Yugoslav market socialism (sensitivity only)
+bih,Bosnia and Herzegovina,yugoslavia,1945,1990,Yugoslav market socialism (sensitivity only)
+mkd,North Macedonia,yugoslavia,1945,1990,Yugoslav market socialism (sensitivity only)
+mne,Montenegro,yugoslavia,1945,1990,Yugoslav market socialism (sensitivity only)
+ago,Angola,afro_marxist,1975,1991,Marxist-Leninist one-party state (sensitivity only)
+moz,Mozambique,afro_marxist,1975,1990,(sensitivity only)
+eth,Ethiopia,afro_marxist,1974,1991,Derg (sensitivity only)
+ben,Benin,afro_marxist,1975,1990,(sensitivity only)
+cog,"Congo, Rep.",afro_marxist,1969,1991,(sensitivity only)
+afg,Afghanistan,afro_marxist,1978,1992,DRA (sensitivity only)
+nic,Nicaragua,afro_marxist,1979,1990,Sandinista (sensitivity only)
