@@ -38,7 +38,7 @@ This creates `articles/YYYY-MM-my-article-slug/` from `_template/`.
 
 - **Folder names:** `YYYY-MM-short-slug` (month the folder was created), lowercase, hyphens.
 - **Status:** set in the header of `draft.md`: `idea` → `researching` → `drafting` → `editing` → `published`.
-- **Sources:** every link we read goes in `sources.csv`, even ones we end up not using.
+- **Sources:** every link we read goes in `sources.csv`, even ones we end up not using. The `access` column says how much we actually read: `full_text`, `abstract`, `snippet` or `not_read`.
 - **Data:** never edit files in `data/raw/`. Cleaning happens in a script that writes to `data/processed/`.
 - **Figures:** produced by scripts, so they can be regenerated. Don't hand-edit them.
 - **Research summary:** the single source of truth for what we know. If it's not there, we don't know it.
