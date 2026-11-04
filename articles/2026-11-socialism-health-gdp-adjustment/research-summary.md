@@ -257,7 +257,11 @@ We used Gapminder data (`scripts/03_reanalysis.py`, `04_robustness.py`) with our
 **Caveats:**
 - **The East's figures are flattered.** The GDR counted a live birth only with *two* signs of life, a heartbeat *and* breathing. A baby with a heartbeat who never breathed was counted as a stillbirth (HMD DEUTE documentation; Lišková et al. 2024). So GDR infant mortality and life expectancy are slightly flattered, and the true pre-1990 gap is, if anything, bigger.
 - **Population counts differed.** The GDR counted only people resident at least 6 months.
-- **Not a clean experiment.** Becker, Mergele & Woessmann (2020): differences pre-dated the division, and selective emigration (about a fifth of the population before 1961) changed the East's makeup.
+- **Imperfect, but the best comparison available, and far better than the paper's.**
+  - Becker, Mergele & Woessmann (2020) note some East–West differences pre-date the division, and about a fifth of the population emigrated selectively before 1961.
+  - The timing rules these out as the explanation for the health gap. Life expectancy was **level** until about 1975, long after 1945 and 1961, then diverged, then converged again after 1990.
+  - A fixed pre-war difference or a one-off emigration wave can't produce that pattern. A change in system can.
+  - Every comparison has flaws. The question is which is least bad. Comparing East Germany with West Germany is far better than comparing it with Trinidad, Libya or Gabon, which is what holding GDP fixed does.
 
 ### GDP: East German figures were revised down sharply after 1990
 

@@ -53,7 +53,10 @@ A widely shared 1986 paper (cited by Jason Hickel) claims socialist countries ha
      - GDR GDP was revised down sharply after 1990, from roughly half of West Germany's to about a third.
      - The GDR's two-signs-of-life rule for live births flattered infant mortality.
      - The CIA once rated East Germany richer per head than West Germany.
-   - **Caveat:** not a perfect experiment. Some differences pre-date 1945, and many people emigrated before 1961 (Becker, Mergele & Woessmann).
+   - **Pre-empt the "not a perfect experiment" objection:**
+     - True, no experiment is.
+     - The timing rules out the usual objections (pre-war differences, emigration before 1961): the gap only opened in the mid-1970s and closed after 1990.
+     - And whatever its flaws, East vs West Germany is a far better comparison than East Germany vs Trinidad, which is what the paper's method gives you.
 
 6. **Asking the right question elsewhere: what happened to similar countries?**
    - **Figure 4:** neighbours with similar starting points (Finland/Estonia, Austria/Czechia & Hungary, Southern vs Eastern Europe).
