@@ -103,6 +103,8 @@ def fig_trends(d):
     ax2.scatter([1989], [recon], s=60, facecolor="white", edgecolor=style.SOCIALIST, lw=2, zorder=3)
     ax2.annotate(f"post-1990 reconstruction:\n~{RECONSTRUCTED_RATIO_1989:.0%} of West (1989)", (1989, recon), xytext=(1972, 3300),
                  fontsize=9, color=style.TEXT_2, arrowprops=dict(arrowstyle="-", color=style.MUTED))
+    ax2.text(1951, 13300, "1936: East about equal\nto West per head (CIA).\nGap opened 1945–50.", fontsize=9,
+             color=style.TEXT_2, va="top")
     ax2.set_xlim(1950, 1991)
     fig.suptitle("East vs West Germany: same people, same history, different system", x=0.01, ha="left",
                  fontsize=13, fontweight="bold", color=style.TEXT)

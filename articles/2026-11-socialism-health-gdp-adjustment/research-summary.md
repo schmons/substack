@@ -263,6 +263,25 @@ We used Gapminder data (`scripts/03_reanalysis.py`, `04_robustness.py`) with our
   - A fixed pre-war difference or a one-off emigration wave can't produce that pattern. A change in system can.
   - Every comparison has flaws. The question is which is least bad. Comparing East Germany with West Germany is far better than comparing it with Trinidad, Libya or Gabon, which is what holding GDP fixed does.
 
+### Where the 1950 GDP gap came from
+
+**Before the war, the two halves were about equal.**
+- CIA comparison of East and West German national products: in 1936 per-capita GNP in the later GDR territory was about **3% above** the West's.
+- A Groningen study of the 1936 industrial census finds East German *industry* somewhat less productive (textile-heavy vs the West's metals), with lower education levels.
+- So: roughly equal income, with differences of structure.
+
+**By 1950 the East was far behind.** Total Economy Database: about 46%. CIA: 26% below the West in 1955, i.e. about 74%. Estimates vary a lot.
+- The CIA also notes the West regained its 1936 income level in the late 1940s, the East only in the early 1950s.
+
+**Causes, 1945–1950:**
+- **Reparations and dismantling.** Soviet reparations cut the East's industrial capital per worker by about a third (Ritschl & Vonyó 2014).
+- **Division of a single industrial economy.** Eastern districts were cut off from western suppliers and markets.
+- **Productivity collapse.** Ritschl & Vonyó's main finding: "the dismantling of the capital stock alone cannot explain the inferior performance"; the collapse and recovery were driven by total factor productivity. West German industry led before the 1948 reforms took effect.
+- **Expropriation and the start of central planning.** No Marshall aid.
+
+**Why it matters:** the 1950 gap is *not* a pre-treatment difference. It is the first effect of Soviet occupation and the new system. The GDP gap that later puts East Germany in the same band as Trinidad was caused by the system from the start: the mediator problem in its purest form.
+- Becker, Mergele & Woessmann's pre-war differences are about things like religion and voting, not income levels.
+
 ### GDP: East German figures were revised down sharply after 1990
 
 **How far behind was East Germany in 1989?**
